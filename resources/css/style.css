@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 106px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto !important;
+}
+
+.nav-item {
+    font-weight: 700 !important;
+}
+
+.nav-item a {
+    color: #523946 !important;
+}
+
+.nav-item:not(.active) a:hover {
+    transform: scale(1.05);
+    color: #781F4E !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #781F4E !important;
+    border-bottom: 2px solid #781F4E;
+}
+
+.navbar-nav .nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.logo-img {
+    width: 80px;
+    height: auto;
+}
+
+/* Hero section */
+.hero-main-div {
+    margin-top: 30px !important;
+    margin-bottom: 146px !important;
+}
+
+.hero-img {
+    width: 553px;
+}
+
+.hero-text-div {
+
+
+    margin-left: 98px !important;
+
+
+}
+
+.hero-heading {
+    width: 308px;
+    margin-right: 0 !important;
+}
+
+.hero-content {
+    font-size: 20px;
+    line-height: 120%;
+    width: 308px;
+}
+
+/* Hero section ends */
+
+/* Subscription section */
+.subscription-main-div {
+    background-color: #F9F8F6;
+    padding: 80px 0px;
+}
+
+
+
+.subscription-logo {
+    width: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.subscription-headline {
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+
+.btn-color-wa {
+    background-color: #651e41 !important;
+    color: #ffffff !important;
+}
+
+/* .subscription-content {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+} */
+
+.email-safety {
+    margin-top: 15px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.whatsapp-img {
+    width: 130px;
+    height: auto;
+}
+
+/* Subscription section ends */
+
+/* Our clients section */
+.our-clients-main-div {
+    padding: 80px 0px;
+    background-color: #F9F8F6;
+}
+
+.why-choose-us-main-div {
+    padding: 80px 0px;
+    background-color: #F9F8F6;
+}
+
+.our-vision-main-div {
+    padding: 80px 0px;
+}
+
+.special-focus-areas-main-div {
+    padding: 80px 0px;
+}
+
+.our-clients-heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.our-clients-img-1 img,
+.our-clients-img-2 img,
+.our-clients-img-3 img {
+
+    width: 530px;
+}
+
+.our-clients-project-1 {
+
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 98px !important;
+    padding: 0 !important;
+
+}
+
+.our-clients-project-1 h1,
+.our-clients-project-2 h1,
+.our-clients-project-3 h1 {
+
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    letter-spacing: 0em;
+}
+
+.our-clients-project-1 p,
+.our-clients-project-2 p,
+.our-clients-project-3 p {
+    width: 310px;
+}
+
+.our-clients-project-2 {
+    margin-top: 142px !important;
+
+}
+
+.our-clients-project-3 {
+    margin-left: 98px !important;
+    padding: 0 !important;
+    margin-top: 88px !important;
+}
+
+.our-clients-main-div .service-list li {
+    margin-bottom: 15px;
+}
+
+.special-focus-areas-main-div .service-list li {
+    margin-bottom: 30px;
+}
+
+.why-choose-us-main-div .service-list li {
+    margin-bottom: 30px;
+}
+
+.service-list li {
+    color: #651e41 !important;
+}
+
+.colored-text {
+    color: #651e41 !important;
+}
+
+/* .svg-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    fill: #651e41;
+} */
+
+.bullet-icon {
+    /* min-width: 24px; */
+    display: inline-flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.bullet-icon svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+    fill: #651e41;
+}
+
+/* Our clients section ends */
+
+
+/* Good company section */
+.good-company-div {
+    background-color: #20014D;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.good-company-div h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.good-company-div p {
+
+    font-size: 12px;
+
+
+
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+
+
+}
+
+
+.icon-adobe {
+
+    width: 70px;
+
+    margin-right: 80px;
+}
+
+.icon-amazon {
+    width: 100px;
+
+    margin-right: 80px;
+}
+
+.icon-facebook {
+    width: 100px;
+
+    margin-right: 80px;
+}
+
+.icon-google {
+    width: 100px;
+
+    margin-right: 80px;
+}
+
+.icon-intel {
+    width: 100px;
+
+    margin-right: 80px;
+}
+
+.icon-samsung {
+    width: 80px;
+
+}
+
+/* Good company section ends */
+
+
+/* Testimonials section */
+
+.testimonials-heading {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-size: 32px;
+
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonials-desc {
+    width: 401px;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto 30px auto;
+
+
+}
+
+
+
+.testimonials-card p:first-child {
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 7px 7px 40px gray;
+
+}
+
+.testimonials-profile img {
+    width: 100px;
+    margin-right: 15px;
+
+}
+
+.testimonials-profile {
+    margin-top: 25px;
+}
+
+.testimonials-name h1 {
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+
+}
+
+.testimonials-name p {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+
+
+/* Testimonials section ends */
+
+/* Pricing */
+.pricing-main-div {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #F4F7FE;
+}
+
+
+
+.pricing-h1 {
+    text-align: center;
+    width: 100%;
+
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin-bottom: 16px;
+}
+
+.pricing-p {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 53px;
+
+
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.btn-sign-up {
+
+    color: #EF5B59 !important;
+    background-color: white !important;
+
+}
+
+.pricing-yellow {
+    background-color: #F1C40F;
+
+}
+
+
+.pricing-sienna {
+    background-color: #EF5B59;
+}
+
+.pricing-purple {
+    background-color: #20014D;
+}
+
+.pricing-h1-1 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+
+    font-weight: 700;
+
+    margin-bottom: 32px;
+}
+
+.pricing-h1-2 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.085em;
+    text-align: center;
+    margin-bottom: 32px;
+
+
+}
+
+.pricing-h1-3,
+.pricing-h1-4,
+.pricing-h1-5 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+
+.pricing-h1-span-1 {
+    font-size: 20px;
+    vertical-align: super;
+}
+
+.pricing-h1-span-2 {
+    font-size: 20px;
+
+
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pricing-card {
+    padding-top: 16px;
+    padding-bottom: 37px;
+
+}
+
+.pricing-card-div {
+    width: 310px;
+}
+
+
+/* Pricing ends */
+
+/* Footer */
+footer {
+    margin-top: 75px;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+footer ul>li {
+    list-style-type: none;
+}
+
+footer ul>li>a,
+footer ul>li>a:visited {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+footer ul>li>a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 500;
+}
+
+footer ul>li>a>img:hover {
+    transition: all 0.7;
+    transform: scale(1.1);
+
+}
+
+
+.copyright {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Footer ends */
+
+/* Initial hidden state */
+.animate-first,
+.animate-last {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* Heading + Image */
+.animate-first {
+    animation: fadeUp 0.8s ease forwards;
+}
+
+/* List (delayed) */
+.animate-last {
+    animation: fadeUp 0.8s ease forwards;
+    animation-delay: 0.9s;
+}
+
+/* Fix anchor scroll offset for fixed navbar */
+.nav-click-scroll {
+    scroll-margin-top: 60px;
+    /* adjust to match navbar height */
+}
+
+.contact-icons {
+    width: 20px;
+    height: auto;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
