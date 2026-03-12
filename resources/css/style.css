@@ -502,7 +502,7 @@ body {
 
 /* Footer */
 footer {
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 .footer-heading {
@@ -541,6 +541,12 @@ footer ul>li>a>img:hover {
     left: auto;
     bottom: 50px;
     z-index: 1030;
+}
+
+.footer-seo {
+    max-width: 1080px;
+    padding: 0 12px 20px;
+    margin: auto;
 }
 
 .copyright {
