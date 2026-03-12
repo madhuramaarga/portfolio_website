@@ -9,7 +9,8 @@ body {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1080px;
+    width: 100%;
     margin: 0 auto !important;
 }
 
@@ -47,20 +48,18 @@ body {
 }
 
 .hero-img {
-    width: 553px;
+    width: 100%;
+    max-width: 538px;
 }
 
 .hero-text-div {
-
-
     margin-left: 98px !important;
-
-
 }
 
 .hero-heading {
     width: 308px;
     margin-right: 0 !important;
+    word-wrap: normal;
 }
 
 .hero-content {
@@ -535,6 +534,14 @@ footer ul>li>a>img:hover {
 
 }
 
+.footer-to-top {
+    position: fixed;
+    right: 5px;
+    bottom: 0;
+    left: auto;
+    bottom: 50px;
+    z-index: 1030;
+}
 
 .copyright {
     font-weight: 400;
@@ -572,6 +579,10 @@ footer ul>li>a>img:hover {
     width: 20px;
     height: auto;
 }
+
+/* Media Queries - Responsiveness */
+
+@media screen and (max-width: 600px) {}
 
 /* Keyframes */
 @keyframes fadeUp {
